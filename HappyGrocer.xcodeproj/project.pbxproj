@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5423CE170DDBEA00B3331A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423CD170DDBEA00B3331A /* UIKit.framework */; };
+		DD5423D0170DDBEA00B3331A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423CF170DDBEA00B3331A /* Foundation.framework */; };
+		DD5423D2170DDBEA00B3331A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423D1170DDBEA00B3331A /* CoreGraphics.framework */; };
+		DD5423D8170DDBEA00B3331A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD5423D6170DDBEA00B3331A /* InfoPlist.strings */; };
+		DD5423DA170DDBEA00B3331A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5423D9170DDBEA00B3331A /* main.m */; };
+		DD5423DE170DDBEA00B3331A /* HappyGrocerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5423DD170DDBEA00B3331A /* HappyGrocerAppDelegate.m */; };
+		DD5423E0170DDBEA00B3331A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5423DF170DDBEA00B3331A /* Default.png */; };
+		DD5423E2170DDBEA00B3331A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E1170DDBEA00B3331A /* Default@2x.png */; };
+		DD5423E4170DDBEA00B3331A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E3170DDBEA00B3331A /* Default-568h@2x.png */; };
+		DD5423E7170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */; };
+		DD5423EA170DDBEA00B3331A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E8170DDBEA00B3331A /* MainStoryboard_iPad.storyboard */; };
+		DD5423ED170DDBEA00B3331A /* HappyGrocerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD5423CA170DDBEA00B3331A /* HappyGrocer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyGrocer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5423CD170DDBEA00B3331A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD5423CF170DDBEA00B3331A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD5423D1170DDBEA00B3331A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD5423D5170DDBEA00B3331A /* HappyGrocer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappyGrocer-Info.plist"; sourceTree = "<group>"; };
+		DD5423D7170DDBEA00B3331A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD5423D9170DDBEA00B3331A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5423DB170DDBEA00B3331A /* HappyGrocer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappyGrocer-Prefix.pch"; sourceTree = "<group>"; };
+		DD5423DC170DDBEA00B3331A /* HappyGrocerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyGrocerAppDelegate.h; sourceTree = "<group>"; };
+		DD5423DD170DDBEA00B3331A /* HappyGrocerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyGrocerAppDelegate.m; sourceTree = "<group>"; };
+		DD5423DF170DDBEA00B3331A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DD5423E1170DDBEA00B3331A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DD5423E3170DDBEA00B3331A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD5423E6170DDBEA00B3331A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DD5423E9170DDBEA00B3331A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DD5423EB170DDBEA00B3331A /* HappyGrocerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyGrocerViewController.h; sourceTree = "<group>"; };
+		DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyGrocerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5423C7170DDBE900B3331A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5423CE170DDBEA00B3331A /* UIKit.framework in Frameworks */,
+				DD5423D0170DDBEA00B3331A /* Foundation.framework in Frameworks */,
+				DD5423D2170DDBEA00B3331A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5423C1170DDBE900B3331A = {
+			isa = PBXGroup;
+			children = (
+				DD5423D3170DDBEA00B3331A /* HappyGrocer */,
+				DD5423CC170DDBEA00B3331A /* Frameworks */,
+				DD5423CB170DDBEA00B3331A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5423CB170DDBEA00B3331A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5423CA170DDBEA00B3331A /* HappyGrocer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5423CC170DDBEA00B3331A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5423CD170DDBEA00B3331A /* UIKit.framework */,
+				DD5423CF170DDBEA00B3331A /* Foundation.framework */,
+				DD5423D1170DDBEA00B3331A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5423D3170DDBEA00B3331A /* HappyGrocer */ = {
+			isa = PBXGroup;
+			children = (
+				DD5423DC170DDBEA00B3331A /* HappyGrocerAppDelegate.h */,
+				DD5423DD170DDBEA00B3331A /* HappyGrocerAppDelegate.m */,
+				DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */,
+				DD5423E8170DDBEA00B3331A /* MainStoryboard_iPad.storyboard */,
+				DD5423EB170DDBEA00B3331A /* HappyGrocerViewController.h */,
+				DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */,
+				DD5423D4170DDBEA00B3331A /* Supporting Files */,
+			);
+			path = HappyGrocer;
+			sourceTree = "<group>";
+		};
+		DD5423D4170DDBEA00B3331A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5423D5170DDBEA00B3331A /* HappyGrocer-Info.plist */,
+				DD5423D6170DDBEA00B3331A /* InfoPlist.strings */,
+				DD5423D9170DDBEA00B3331A /* main.m */,
+				DD5423DB170DDBEA00B3331A /* HappyGrocer-Prefix.pch */,
+				DD5423DF170DDBEA00B3331A /* Default.png */,
+				DD5423E1170DDBEA00B3331A /* Default@2x.png */,
+				DD5423E3170DDBEA00B3331A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5423C9170DDBE900B3331A /* HappyGrocer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5423F0170DDBEA00B3331A /* Build configuration list for PBXNativeTarget "HappyGrocer" */;
+			buildPhases = (
+				DD5423C6170DDBE900B3331A /* Sources */,
+				DD5423C7170DDBE900B3331A /* Frameworks */,
+				DD5423C8170DDBE900B3331A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyGrocer;
+			productName = HappyGrocer;
+			productReference = DD5423CA170DDBEA00B3331A /* HappyGrocer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5423C2170DDBE900B3331A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HappyGrocer;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kirsten Kane";
+			};
+			buildConfigurationList = DD5423C5170DDBE900B3331A /* Build configuration list for PBXProject "HappyGrocer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD5423C1170DDBE900B3331A;
+			productRefGroup = DD5423CB170DDBEA00B3331A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5423C9170DDBE900B3331A /* HappyGrocer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5423C8170DDBE900B3331A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5423D8170DDBEA00B3331A /* InfoPlist.strings in Resources */,
+				DD5423E0170DDBEA00B3331A /* Default.png in Resources */,
+				DD5423E2170DDBEA00B3331A /* Default@2x.png in Resources */,
+				DD5423E4170DDBEA00B3331A /* Default-568h@2x.png in Resources */,
+				DD5423E7170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard in Resources */,
+				DD5423EA170DDBEA00B3331A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5423C6170DDBE900B3331A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5423DA170DDBEA00B3331A /* main.m in Sources */,
+				DD5423DE170DDBEA00B3331A /* HappyGrocerAppDelegate.m in Sources */,
+				DD5423ED170DDBEA00B3331A /* HappyGrocerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD5423D6170DDBEA00B3331A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5423D7170DDBEA00B3331A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5423E6170DDBEA00B3331A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5423E8170DDBEA00B3331A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5423E9170DDBEA00B3331A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5423EE170DDBEA00B3331A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5423EF170DDBEA00B3331A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5423F1170DDBEA00B3331A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyGrocer/HappyGrocer-Prefix.pch";
+				INFOPLIST_FILE = "HappyGrocer/HappyGrocer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD5423F2170DDBEA00B3331A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyGrocer/HappyGrocer-Prefix.pch";
+				INFOPLIST_FILE = "HappyGrocer/HappyGrocer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5423C5170DDBE900B3331A /* Build configuration list for PBXProject "HappyGrocer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5423EE170DDBEA00B3331A /* Debug */,
+				DD5423EF170DDBEA00B3331A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5423F0170DDBEA00B3331A /* Build configuration list for PBXNativeTarget "HappyGrocer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5423F1170DDBEA00B3331A /* Debug */,
+				DD5423F2170DDBEA00B3331A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5423C2170DDBE900B3331A /* Project object */;
+}
