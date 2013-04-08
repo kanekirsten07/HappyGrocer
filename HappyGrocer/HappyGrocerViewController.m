@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)AddItem:(id)sender {
+}
+
+- (IBAction)ViewItem:(id)sender {
+}
 @end

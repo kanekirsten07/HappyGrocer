@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HappyGrocerViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *MainMenu;
+- (IBAction)AddItem:(id)sender;
+- (IBAction)ViewItem:(id)sender;
 
 @end
