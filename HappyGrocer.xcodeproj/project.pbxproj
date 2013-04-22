@@ -19,6 +19,18 @@
 		DD5423E7170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */; };
 		DD5423EA170DDBEA00B3331A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E8170DDBEA00B3331A /* MainStoryboard_iPad.storyboard */; };
 		DD5423ED170DDBEA00B3331A /* HappyGrocerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */; };
+		DDF85ACA1725BCEB00B30393 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF85AC81725BCEB00B30393 /* AddItemViewController.m */; };
+		DDF85ACB1725BCEB00B30393 /* AddItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF85AC91725BCEB00B30393 /* AddItemViewController.xib */; };
+		DDF85ACD1725BED400B30393 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ACC1725BED400B30393 /* Parse.framework */; };
+		DDF85ACF1725BF3900B30393 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ACE1725BF3900B30393 /* AudioToolbox.framework */; };
+		DDF85AD11725BF4400B30393 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85AD01725BF4400B30393 /* CFNetwork.framework */; };
+		DDF85AD31725BF5300B30393 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85AD21725BF5300B30393 /* CoreLocation.framework */; };
+		DDF85AD51725BF7800B30393 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85AD41725BF7800B30393 /* libz.1.1.3.dylib */; };
+		DDF85AD71725BF8C00B30393 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85AD61725BF8C00B30393 /* MobileCoreServices.framework */; };
+		DDF85AD91725BF9600B30393 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85AD81725BF9600B30393 /* QuartzCore.framework */; };
+		DDF85ADB1725BFA000B30393 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ADA1725BFA000B30393 /* Security.framework */; };
+		DDF85ADD1725BFAD00B30393 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ADC1725BFAD00B30393 /* StoreKit.framework */; };
+		DDF85ADF1725BFB600B30393 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ADE1725BFB600B30393 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +51,19 @@
 		DD5423E9170DDBEA00B3331A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		DD5423EB170DDBEA00B3331A /* HappyGrocerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyGrocerViewController.h; sourceTree = "<group>"; };
 		DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyGrocerViewController.m; sourceTree = "<group>"; };
+		DDF85AC71725BCEB00B30393 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		DDF85AC81725BCEB00B30393 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		DDF85AC91725BCEB00B30393 /* AddItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddItemViewController.xib; sourceTree = "<group>"; };
+		DDF85ACC1725BED400B30393 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		DDF85ACE1725BF3900B30393 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DDF85AD01725BF4400B30393 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DDF85AD21725BF5300B30393 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DDF85AD41725BF7800B30393 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		DDF85AD61725BF8C00B30393 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DDF85AD81725BF9600B30393 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DDF85ADA1725BFA000B30393 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DDF85ADC1725BFAD00B30393 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DDF85ADE1725BFB600B30393 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +71,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF85ADF1725BFB600B30393 /* SystemConfiguration.framework in Frameworks */,
+				DDF85ADD1725BFAD00B30393 /* StoreKit.framework in Frameworks */,
+				DDF85ADB1725BFA000B30393 /* Security.framework in Frameworks */,
+				DDF85AD91725BF9600B30393 /* QuartzCore.framework in Frameworks */,
+				DDF85AD71725BF8C00B30393 /* MobileCoreServices.framework in Frameworks */,
+				DDF85AD51725BF7800B30393 /* libz.1.1.3.dylib in Frameworks */,
+				DDF85AD31725BF5300B30393 /* CoreLocation.framework in Frameworks */,
+				DD5423D2170DDBEA00B3331A /* CoreGraphics.framework in Frameworks */,
+				DDF85AD11725BF4400B30393 /* CFNetwork.framework in Frameworks */,
+				DDF85ACF1725BF3900B30393 /* AudioToolbox.framework in Frameworks */,
 				DD5423CE170DDBEA00B3331A /* UIKit.framework in Frameworks */,
 				DD5423D0170DDBEA00B3331A /* Foundation.framework in Frameworks */,
-				DD5423D2170DDBEA00B3331A /* CoreGraphics.framework in Frameworks */,
+				DDF85ACD1725BED400B30393 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +110,16 @@
 		DD5423CC170DDBEA00B3331A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDF85ADE1725BFB600B30393 /* SystemConfiguration.framework */,
+				DDF85ADC1725BFAD00B30393 /* StoreKit.framework */,
+				DDF85ADA1725BFA000B30393 /* Security.framework */,
+				DDF85AD81725BF9600B30393 /* QuartzCore.framework */,
+				DDF85AD61725BF8C00B30393 /* MobileCoreServices.framework */,
+				DDF85AD41725BF7800B30393 /* libz.1.1.3.dylib */,
+				DDF85AD21725BF5300B30393 /* CoreLocation.framework */,
+				DDF85AD01725BF4400B30393 /* CFNetwork.framework */,
+				DDF85ACE1725BF3900B30393 /* AudioToolbox.framework */,
+				DDF85ACC1725BED400B30393 /* Parse.framework */,
 				DD5423CD170DDBEA00B3331A /* UIKit.framework */,
 				DD5423CF170DDBEA00B3331A /* Foundation.framework */,
 				DD5423D1170DDBEA00B3331A /* CoreGraphics.framework */,
@@ -85,6 +130,9 @@
 		DD5423D3170DDBEA00B3331A /* HappyGrocer */ = {
 			isa = PBXGroup;
 			children = (
+				DDF85AC71725BCEB00B30393 /* AddItemViewController.h */,
+				DDF85AC81725BCEB00B30393 /* AddItemViewController.m */,
+				DDF85AC91725BCEB00B30393 /* AddItemViewController.xib */,
 				DD5423DC170DDBEA00B3331A /* HappyGrocerAppDelegate.h */,
 				DD5423DD170DDBEA00B3331A /* HappyGrocerAppDelegate.m */,
 				DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */,
@@ -168,6 +216,7 @@
 				DD5423E4170DDBEA00B3331A /* Default-568h@2x.png in Resources */,
 				DD5423E7170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard in Resources */,
 				DD5423EA170DDBEA00B3331A /* MainStoryboard_iPad.storyboard in Resources */,
+				DDF85ACB1725BCEB00B30393 /* AddItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +230,7 @@
 				DD5423DA170DDBEA00B3331A /* main.m in Sources */,
 				DD5423DE170DDBEA00B3331A /* HappyGrocerAppDelegate.m in Sources */,
 				DD5423ED170DDBEA00B3331A /* HappyGrocerViewController.m in Sources */,
+				DDF85ACA1725BCEB00B30393 /* AddItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +325,10 @@
 		DD5423F1170DDBEA00B3331A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HappyGrocer/HappyGrocer-Prefix.pch";
 				INFOPLIST_FILE = "HappyGrocer/HappyGrocer-Info.plist";
@@ -286,6 +340,10 @@
 		DD5423F2170DDBEA00B3331A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HappyGrocer/HappyGrocer-Prefix.pch";
 				INFOPLIST_FILE = "HappyGrocer/HappyGrocer-Info.plist";
@@ -313,6 +371,7 @@
 				DD5423F2170DDBEA00B3331A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

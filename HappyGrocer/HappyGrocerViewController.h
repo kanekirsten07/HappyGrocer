@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface HappyGrocerViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *MainMenu;
