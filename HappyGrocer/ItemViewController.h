@@ -11,11 +11,11 @@
 #import "ItemCell.h"
 
 
-@interface ItemViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@interface ItemViewController : PFQueryTableViewController
 {
-    NSArray *itemsArray;
+ 
 }
-@property (weak, nonatomic) IBOutlet UITableView *tableview;
+@property (strong, nonatomic) UIWindow *window;
 
 
 
