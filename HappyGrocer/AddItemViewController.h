@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *Note;
 - (IBAction)back:(id)sender;
 - (IBAction)submit:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *back;
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end

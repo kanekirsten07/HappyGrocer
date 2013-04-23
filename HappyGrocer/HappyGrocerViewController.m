@@ -8,6 +8,7 @@
 
 #import "HappyGrocerViewController.h"
 #import "AddItemViewController.h"
+#import "ItemViewController.h"
 
 @interface HappyGrocerViewController ()
 
@@ -19,9 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-    [testObject setObject:@"bar" forKey:@"foo"];
-    [testObject save];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,5 +36,9 @@
 }
 
 - (IBAction)ViewItem:(id)sender {
+    
+    ItemViewController *IVC =[[ItemViewController alloc]initWithNibName:@"ItemViewController" bundle:nil];
+    [self presentModalViewController:IVC animated:YES];
+   
 }
 @end
