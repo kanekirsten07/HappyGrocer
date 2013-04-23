@@ -37,7 +37,7 @@
 
 - (IBAction)ViewItem:(id)sender {
     
-    ItemViewController *IVC =[[ItemViewController alloc]initWithNibName:@"ItemViewController" bundle:nil];
+    ItemViewController *IVC =[[ItemViewController alloc]initWithStyle: UITableViewStylePlain];
     [self presentModalViewController:IVC animated:YES];
    
 }

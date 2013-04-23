@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import "Toast+UIView.h"
 
 @interface AddItemViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *Name;

@@ -8,6 +8,7 @@
 
 #import "AddItemViewController.h"
 
+
 @interface AddItemViewController ()
 
 @end
@@ -50,5 +51,10 @@
 }
 
 - (IBAction)submit:(id)sender {
+    NSString *myname = _name.text;
+    PFObject *item = [PFObject objectWithClassName:@"Groceries"];
+    [item setObject:[NSString stringWithFormat:@"%@",myname] forKey:@"Name"];
+    [item save];
+    [self.view makeToast:@"Item Added"];
 }
 @end
