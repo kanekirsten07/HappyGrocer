@@ -31,6 +31,10 @@
 		DDF85ADB1725BFA000B30393 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ADA1725BFA000B30393 /* Security.framework */; };
 		DDF85ADD1725BFAD00B30393 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ADC1725BFAD00B30393 /* StoreKit.framework */; };
 		DDF85ADF1725BFB600B30393 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ADE1725BFB600B30393 /* SystemConfiguration.framework */; };
+		DDF85AFC1725FC4500B30393 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF85AFA1725FC4500B30393 /* ItemViewController.m */; };
+		DDF85AFD1725FC4500B30393 /* ItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF85AFB1725FC4500B30393 /* ItemViewController.xib */; };
+		DDF85B0017260F5B00B30393 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF85AFF17260F5A00B30393 /* ItemCell.m */; };
+		DDF85B10172725B800B30393 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF85B0F172725A900B30393 /* Toast+UIView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,13 @@
 		DDF85ADA1725BFA000B30393 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DDF85ADC1725BFAD00B30393 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DDF85ADE1725BFB600B30393 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DDF85AF91725FC4500B30393 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		DDF85AFA1725FC4500B30393 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		DDF85AFB1725FC4500B30393 /* ItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemViewController.xib; sourceTree = "<group>"; };
+		DDF85AFE17260F5A00B30393 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemCell.h; path = ../ItemCell.h; sourceTree = "<group>"; };
+		DDF85AFF17260F5A00B30393 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemCell.m; path = ../ItemCell.m; sourceTree = "<group>"; };
+		DDF85B0E172725A900B30393 /* Toast+UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		DDF85B0F172725A900B30393 /* Toast+UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +141,11 @@
 		DD5423D3170DDBEA00B3331A /* HappyGrocer */ = {
 			isa = PBXGroup;
 			children = (
+				DDF85B0E172725A900B30393 /* Toast+UIView.h */,
+				DDF85B0F172725A900B30393 /* Toast+UIView.m */,
+				DDF85AF91725FC4500B30393 /* ItemViewController.h */,
+				DDF85AFA1725FC4500B30393 /* ItemViewController.m */,
+				DDF85AFB1725FC4500B30393 /* ItemViewController.xib */,
 				DDF85AC71725BCEB00B30393 /* AddItemViewController.h */,
 				DDF85AC81725BCEB00B30393 /* AddItemViewController.m */,
 				DDF85AC91725BCEB00B30393 /* AddItemViewController.xib */,
@@ -147,6 +163,8 @@
 		DD5423D4170DDBEA00B3331A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDF85AFE17260F5A00B30393 /* ItemCell.h */,
+				DDF85AFF17260F5A00B30393 /* ItemCell.m */,
 				DD5423D5170DDBEA00B3331A /* HappyGrocer-Info.plist */,
 				DD5423D6170DDBEA00B3331A /* InfoPlist.strings */,
 				DD5423D9170DDBEA00B3331A /* main.m */,
@@ -217,6 +235,7 @@
 				DD5423E7170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard in Resources */,
 				DD5423EA170DDBEA00B3331A /* MainStoryboard_iPad.storyboard in Resources */,
 				DDF85ACB1725BCEB00B30393 /* AddItemViewController.xib in Resources */,
+				DDF85AFD1725FC4500B30393 /* ItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,10 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF85B10172725B800B30393 /* Toast+UIView.m in Sources */,
 				DD5423DA170DDBEA00B3331A /* main.m in Sources */,
 				DD5423DE170DDBEA00B3331A /* HappyGrocerAppDelegate.m in Sources */,
 				DD5423ED170DDBEA00B3331A /* HappyGrocerViewController.m in Sources */,
 				DDF85ACA1725BCEB00B30393 /* AddItemViewController.m in Sources */,
+				DDF85AFC1725FC4500B30393 /* ItemViewController.m in Sources */,
+				DDF85B0017260F5B00B30393 /* ItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
