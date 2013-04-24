@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import "Toast+UIView.h"
 
 @interface AddItemViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *Name;
 @property (weak, nonatomic) IBOutlet UITextField *Note;
 - (IBAction)back:(id)sender;
 - (IBAction)submit:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *back;
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end
