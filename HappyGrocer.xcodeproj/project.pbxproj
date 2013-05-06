@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DD4968351738327700C8B6A3 /* HappyGrocerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4968331738327700C8B6A3 /* HappyGrocerViewController.m */; };
 		DD4968361738327700C8B6A3 /* HappyGrocerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4968341738327700C8B6A3 /* HappyGrocerViewController.xib */; };
+		DD49683A1738495100C8B6A3 /* SpecificItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4968381738495100C8B6A3 /* SpecificItemViewController.m */; };
+		DD49683B1738495100C8B6A3 /* SpecificItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4968391738495100C8B6A3 /* SpecificItemViewController.xib */; };
 		DD5423CE170DDBEA00B3331A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423CD170DDBEA00B3331A /* UIKit.framework */; };
 		DD5423D0170DDBEA00B3331A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423CF170DDBEA00B3331A /* Foundation.framework */; };
 		DD5423D2170DDBEA00B3331A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423D1170DDBEA00B3331A /* CoreGraphics.framework */; };
@@ -40,6 +42,9 @@
 		DD4968321738327700C8B6A3 /* HappyGrocerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyGrocerViewController.h; sourceTree = "<group>"; };
 		DD4968331738327700C8B6A3 /* HappyGrocerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyGrocerViewController.m; sourceTree = "<group>"; };
 		DD4968341738327700C8B6A3 /* HappyGrocerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HappyGrocerViewController.xib; sourceTree = "<group>"; };
+		DD4968371738495100C8B6A3 /* SpecificItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificItemViewController.h; sourceTree = "<group>"; };
+		DD4968381738495100C8B6A3 /* SpecificItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificItemViewController.m; sourceTree = "<group>"; };
+		DD4968391738495100C8B6A3 /* SpecificItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecificItemViewController.xib; sourceTree = "<group>"; };
 		DD5423CA170DDBEA00B3331A /* HappyGrocer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyGrocer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5423CD170DDBEA00B3331A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD5423CF170DDBEA00B3331A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +144,9 @@
 		DD5423D3170DDBEA00B3331A /* HappyGrocer */ = {
 			isa = PBXGroup;
 			children = (
+				DD4968371738495100C8B6A3 /* SpecificItemViewController.h */,
+				DD4968381738495100C8B6A3 /* SpecificItemViewController.m */,
+				DD4968391738495100C8B6A3 /* SpecificItemViewController.xib */,
 				DD4968321738327700C8B6A3 /* HappyGrocerViewController.h */,
 				DD4968331738327700C8B6A3 /* HappyGrocerViewController.m */,
 				DD4968341738327700C8B6A3 /* HappyGrocerViewController.xib */,
@@ -232,6 +240,7 @@
 				DDF85ACB1725BCEB00B30393 /* AddItemViewController.xib in Resources */,
 				DDF85AFD1725FC4500B30393 /* ItemViewController.xib in Resources */,
 				DD4968361738327700C8B6A3 /* HappyGrocerViewController.xib in Resources */,
+				DD49683B1738495100C8B6A3 /* SpecificItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +258,7 @@
 				DDF85AFC1725FC4500B30393 /* ItemViewController.m in Sources */,
 				DDF85B0017260F5B00B30393 /* ItemCell.m in Sources */,
 				DD4968351738327700C8B6A3 /* HappyGrocerViewController.m in Sources */,
+				DD49683A1738495100C8B6A3 /* SpecificItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

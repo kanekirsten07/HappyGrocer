@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Kirsten Kane. All rights reserved.
 //
 #import "ItemViewController.h"
+#import "SpecificItemViewController.h"
 
 @implementation ItemViewController
 
@@ -23,11 +24,10 @@
         PFQueryTableViewController *controller = [[PFQueryTableViewController alloc]initWithClassName:@"Groceries"];
         self.window.rootViewController = controller;
         [self.window makeKeyAndVisible];
-        
+        self.textKey = @"Name";
         // Uncomment the following line to specify the key of a PFFile on the PFObject to display in the imageView of the default cell style
         // self.imageKey = @"image";
-        
-        // Whether the built-in pull-to-refresh is enabled
+            // Whether the built-in pull-to-refresh is enabled
         self.pullToRefreshEnabled = YES;
         
         // Whether the built-in pagination is enabled
@@ -209,7 +209,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [super tableView:tableView didSelectRowAtIndexPath:indexPath];
-    NSLog(@" Value of row = %ld", (long)indexPath.section);
+    id cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+
+ 
+    
+    SpecificItemViewController *SVC = [[SpecificItemViewController alloc] initWithNibName:@"SpecificItemViewController" bundle:nil];
+    SVC.NameOfItem = [cell text];
+//    NSLog(@"Name of Item %@", SVC.NameOfItem);
+    [self.navigationController pushViewController:SVC animated:YES];
 
     
 
