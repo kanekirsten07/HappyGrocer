@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD4968351738327700C8B6A3 /* HappyGrocerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4968331738327700C8B6A3 /* HappyGrocerViewController.m */; };
+		DD4968361738327700C8B6A3 /* HappyGrocerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4968341738327700C8B6A3 /* HappyGrocerViewController.xib */; };
 		DD5423CE170DDBEA00B3331A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423CD170DDBEA00B3331A /* UIKit.framework */; };
 		DD5423D0170DDBEA00B3331A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423CF170DDBEA00B3331A /* Foundation.framework */; };
 		DD5423D2170DDBEA00B3331A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5423D1170DDBEA00B3331A /* CoreGraphics.framework */; };
@@ -16,9 +18,6 @@
 		DD5423E0170DDBEA00B3331A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5423DF170DDBEA00B3331A /* Default.png */; };
 		DD5423E2170DDBEA00B3331A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E1170DDBEA00B3331A /* Default@2x.png */; };
 		DD5423E4170DDBEA00B3331A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E3170DDBEA00B3331A /* Default-568h@2x.png */; };
-		DD5423E7170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */; };
-		DD5423EA170DDBEA00B3331A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5423E8170DDBEA00B3331A /* MainStoryboard_iPad.storyboard */; };
-		DD5423ED170DDBEA00B3331A /* HappyGrocerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */; };
 		DDF85ACA1725BCEB00B30393 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF85AC81725BCEB00B30393 /* AddItemViewController.m */; };
 		DDF85ACB1725BCEB00B30393 /* AddItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF85AC91725BCEB00B30393 /* AddItemViewController.xib */; };
 		DDF85ACD1725BED400B30393 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF85ACC1725BED400B30393 /* Parse.framework */; };
@@ -38,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD4968321738327700C8B6A3 /* HappyGrocerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyGrocerViewController.h; sourceTree = "<group>"; };
+		DD4968331738327700C8B6A3 /* HappyGrocerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyGrocerViewController.m; sourceTree = "<group>"; };
+		DD4968341738327700C8B6A3 /* HappyGrocerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HappyGrocerViewController.xib; sourceTree = "<group>"; };
 		DD5423CA170DDBEA00B3331A /* HappyGrocer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyGrocer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5423CD170DDBEA00B3331A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD5423CF170DDBEA00B3331A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,10 +53,6 @@
 		DD5423DF170DDBEA00B3331A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DD5423E1170DDBEA00B3331A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DD5423E3170DDBEA00B3331A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DD5423E6170DDBEA00B3331A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		DD5423E9170DDBEA00B3331A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DD5423EB170DDBEA00B3331A /* HappyGrocerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyGrocerViewController.h; sourceTree = "<group>"; };
-		DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyGrocerViewController.m; sourceTree = "<group>"; };
 		DDF85AC71725BCEB00B30393 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
 		DDF85AC81725BCEB00B30393 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
 		DDF85AC91725BCEB00B30393 /* AddItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddItemViewController.xib; sourceTree = "<group>"; };
@@ -141,6 +139,9 @@
 		DD5423D3170DDBEA00B3331A /* HappyGrocer */ = {
 			isa = PBXGroup;
 			children = (
+				DD4968321738327700C8B6A3 /* HappyGrocerViewController.h */,
+				DD4968331738327700C8B6A3 /* HappyGrocerViewController.m */,
+				DD4968341738327700C8B6A3 /* HappyGrocerViewController.xib */,
 				DDF85B0E172725A900B30393 /* Toast+UIView.h */,
 				DDF85B0F172725A900B30393 /* Toast+UIView.m */,
 				DDF85AF91725FC4500B30393 /* ItemViewController.h */,
@@ -151,10 +152,6 @@
 				DDF85AC91725BCEB00B30393 /* AddItemViewController.xib */,
 				DD5423DC170DDBEA00B3331A /* HappyGrocerAppDelegate.h */,
 				DD5423DD170DDBEA00B3331A /* HappyGrocerAppDelegate.m */,
-				DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */,
-				DD5423E8170DDBEA00B3331A /* MainStoryboard_iPad.storyboard */,
-				DD5423EB170DDBEA00B3331A /* HappyGrocerViewController.h */,
-				DD5423EC170DDBEA00B3331A /* HappyGrocerViewController.m */,
 				DD5423D4170DDBEA00B3331A /* Supporting Files */,
 			);
 			path = HappyGrocer;
@@ -232,10 +229,9 @@
 				DD5423E0170DDBEA00B3331A /* Default.png in Resources */,
 				DD5423E2170DDBEA00B3331A /* Default@2x.png in Resources */,
 				DD5423E4170DDBEA00B3331A /* Default-568h@2x.png in Resources */,
-				DD5423E7170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard in Resources */,
-				DD5423EA170DDBEA00B3331A /* MainStoryboard_iPad.storyboard in Resources */,
 				DDF85ACB1725BCEB00B30393 /* AddItemViewController.xib in Resources */,
 				DDF85AFD1725FC4500B30393 /* ItemViewController.xib in Resources */,
+				DD4968361738327700C8B6A3 /* HappyGrocerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +245,10 @@
 				DDF85B10172725B800B30393 /* Toast+UIView.m in Sources */,
 				DD5423DA170DDBEA00B3331A /* main.m in Sources */,
 				DD5423DE170DDBEA00B3331A /* HappyGrocerAppDelegate.m in Sources */,
-				DD5423ED170DDBEA00B3331A /* HappyGrocerViewController.m in Sources */,
 				DDF85ACA1725BCEB00B30393 /* AddItemViewController.m in Sources */,
 				DDF85AFC1725FC4500B30393 /* ItemViewController.m in Sources */,
 				DDF85B0017260F5B00B30393 /* ItemCell.m in Sources */,
+				DD4968351738327700C8B6A3 /* HappyGrocerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,22 +261,6 @@
 				DD5423D7170DDBEA00B3331A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DD5423E5170DDBEA00B3331A /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD5423E6170DDBEA00B3331A /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		DD5423E8170DDBEA00B3331A /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD5423E9170DDBEA00B3331A /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

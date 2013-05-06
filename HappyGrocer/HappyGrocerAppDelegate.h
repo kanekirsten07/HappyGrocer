@@ -11,5 +11,7 @@
 @interface HappyGrocerAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//@property (nonatomic,strong) UINavigationController *navController;
+//@property (nonatomic, strong) HappyGrocerViewController *mainmenuviewcontroller;
 
 @end

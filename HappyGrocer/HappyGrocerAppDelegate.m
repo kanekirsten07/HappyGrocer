@@ -8,14 +8,22 @@
 
 #import "HappyGrocerAppDelegate.h"
 #import <Parse/Parse.h>
+#import "HappyGrocerViewController.h"
+
 
 @implementation HappyGrocerAppDelegate
+//@synthesize mainmenuviewcontroller;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [Parse setApplicationId:@"cYyW27ns5ixWIcGKKDES4LokpJCK3osQLxaOo12F"
                   clientKey:@"9CLZIdGWpyGCC1pKLavV57pLhF7jDyhVJ7FCWgq0"];
+    HappyGrocerViewController *HVC = [[HappyGrocerViewController alloc] initWithNibName:@"HappyGrocerViewController" bundle:nil];
+    UINavigationController *navcontroller = [[UINavigationController alloc]initWithRootViewController:HVC];
+    self.window.rootViewController = navcontroller;
+    
+    
     
     
    

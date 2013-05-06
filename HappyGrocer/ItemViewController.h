@@ -12,9 +12,7 @@
 
 
 @interface ItemViewController : PFQueryTableViewController
-{
- 
-}
+
 @property (strong, nonatomic) UIWindow *window;
 
 

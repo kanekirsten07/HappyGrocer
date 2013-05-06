@@ -209,6 +209,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+    NSLog(@" Value of row = %ld", (long)indexPath.section);
+
+    
+
 }
 
 @end
