@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *ItemName;
 @property (weak, nonatomic) IBOutlet UILabel *NumNeeded;
+@property (weak, nonatomic) IBOutlet UILabel *Note;
 
 @property (weak, nonatomic) IBOutlet UILabel *DateNeeded;
 @property (nonatomic) NSString *NameOfItem;

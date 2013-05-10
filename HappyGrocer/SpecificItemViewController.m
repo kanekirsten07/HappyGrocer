@@ -20,6 +20,7 @@
 }
 @synthesize ItemName = _Iname;
 @synthesize NameOfItem ;
+@synthesize Note = _Note;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -49,9 +50,17 @@
         }else {
             myItem = object;
             NSLog(@"Retrieved object");
+   NSString *objectnote =[myItem objectForKey:@"Note"] ;
+            _Note.text = [NSString stringWithFormat:@"%@", objectnote];
+            //NSDate *mydate = [[myItem objectForKey:@"Needed_By"]date];
+           int *quantity = [[myItem objectForKey:@"Quantity"]intValue];
+            NSLog(@"Note of object %@", objectnote);
+          //  NSLog(@"Date needed %@", mydate);
+            NSLog(@"Quantity needed %@", quantity);
         }
     
     }];
+
 
 
 }

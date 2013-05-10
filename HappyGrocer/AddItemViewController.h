@@ -13,9 +13,11 @@
 @interface AddItemViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *Name;
 @property (weak, nonatomic) IBOutlet UITextField *Note;
-- (IBAction)back:(id)sender;
-- (IBAction)submit:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *Quantity;
+@property (weak, nonatomic) IBOutlet UIStepper *NumItemStepper;
 
+- (IBAction)submit:(id)sender;
+- (IBAction)stepperValueChanged:(id)sender;
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end
