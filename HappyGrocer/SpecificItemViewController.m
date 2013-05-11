@@ -21,6 +21,7 @@
 @synthesize ItemName = _Iname;
 @synthesize NameOfItem ;
 @synthesize Note = _Note;
+@synthesize NumNeeded = _NumNeeded;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -53,10 +54,15 @@
    NSString *objectnote =[myItem objectForKey:@"Note"] ;
             _Note.text = [NSString stringWithFormat:@"%@", objectnote];
             //NSDate *mydate = [[myItem objectForKey:@"Needed_By"]date];
-           int *quantity = [[myItem objectForKey:@"Quantity"]intValue];
-            NSLog(@"Note of object %@", objectnote);
+          
+            int quantity = [myItem objectForKey:@"Quantity"];
+           // NSLog(@"Note of object %@", objectnote);
           //  NSLog(@"Date needed %@", mydate);
-            NSLog(@"Quantity needed %@", quantity);
+            //NSLog(@"Quantity needed %ld", (long)quantity);
+            NSString *date = [myItem objectForKey:@"Needed_By"];
+            _DateNeeded.text = [NSString stringWithFormat:@"%@", date];
+            
+            _NumNeeded.text = [NSString stringWithFormat:@"%d", quantity];
         }
     
     }];
